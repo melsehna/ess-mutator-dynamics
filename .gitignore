@@ -1,0 +1,54 @@
+# macOS
+.DS_Store
+
+# LaTeX build artifacts
+*.aux
+*.log
+*.out
+*.synctex.gz
+*.fls
+*.fdb_latexmk
+
+# Compiled PDFs (regenerable from .tex)
+main.pdf
+
+# Reference papers (not our work)
+AllH3.pdf
+raynes2018.pdf
+salathe.pdf
+liberman11.pdf
+hw2Sols.pdf
+
+# Previous homework files
+hw2.*
+
+# Simulation data (regenerable from code)
+*.csv
+
+# Archives
+*.zip
+
+# Notebooks
+*.ipynb
+
+# Draft/scratch files at root (final versions are in code/)
+/signInv*.jl
+/2loci*.jl
+/salFig1.jl
+/salathe.jl
+/salathe.py
+/salWorking.jl
+/liberman.jl
+/signInv.ipynb
+/recomb.ipynb
+/memes.ipynb
+
+# Loose figures at root (curated versions are in imgs/)
+/salathe*.png
+/salFig1*.png
+/salatheFig1J.png
+/modifier_invasion.png
+/raynesFig1.png
+
+# hw2 artifacts in imgs/
+imgs/hw2.*
